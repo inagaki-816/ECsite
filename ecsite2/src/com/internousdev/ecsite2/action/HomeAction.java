@@ -22,7 +22,7 @@ public class HomeAction extends ActionSupport implements SessionAware{
 			result = SUCCESS;
 		}
 		return result;
-}
+	}
 
 	public Map<String, Object> getSession(){
 		return this.session;
