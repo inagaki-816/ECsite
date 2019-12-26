@@ -9,21 +9,21 @@
 <title>UserCreateComplete画面</title>
 </head>
 <body>
-     <div id="header">
-     </div>
-     <div id="main">
-               <div id="top">
-                        <p>UserCreateComplete</p>
-               </div>
-               <div>
-                   <h3>ユーザーの登録が完了致しました。</h3>
-                   <div>
-                       <a href='<s:url action="HomeAction"/>'>ログインへ</a>
-                   </div>
-               </div>
-     </div>
-     <div id="footer">
-     </div>
+	<div id="header">
+	</div>
+	<div id="main">
+		<div id="top">
+			<p>UserCreateComplete</p>
+		</div>
+		<div>
+			<h3>ユーザーの登録が完了致しました。</h3>
+			<div>
+				<a href='<s:url action="HomeAction"/>'>ログインへ</a>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+	</div>
 
 </body>
 </html>

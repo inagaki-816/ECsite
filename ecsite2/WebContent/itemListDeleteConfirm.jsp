@@ -9,25 +9,24 @@
 <title>商品一覧削除確認</title>
 </head>
 <body>
-    <div id="header">
-    </div>
-    <div id="main">
-            <div id="top">
-                  <p>itemListDeleteConfirm</p>
-            </div>
-            <div>
-               <h3>全ての商品を削除します。よろしいですか？</h3>
-               <s:form action="ItemListDeleteCompleteAction">
-                  <s:submit value="OK"/>
-               </s:form>
-               <s:form action="ItemListAction">
-                  <s:submit value="キャンセル"/>
-               </s:form>
-            </div>
-
-    </div>
-    <div id="footer">
-    </div>
+	<div id="header">
+	</div>
+	<div id="main">
+		<div id="top">
+			<p>itemListDeleteConfirm</p>
+		</div>
+		<div>
+			<h3>全ての商品を削除します。よろしいですか？</h3>
+			<s:form action="ItemListDeleteCompleteAction">
+				<s:submit value="OK"/>
+			</s:form>
+			<s:form action="ItemListAction">
+				<s:submit value="キャンセル"/>
+			</s:form>
+		</div>
+	</div>
+	<div id="footer">
+	</div>
 
 </body>
 </html>

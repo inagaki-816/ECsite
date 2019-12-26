@@ -9,19 +9,19 @@
 <title>商品一覧削除完了</title>
 </head>
 <body>
-    <div id="header">
-    </div>
-    <div id="main">
-        <div id="top">
-              <p>itemListDeleteComplete</p>
-        </div>
-        <div>
-            <h3><s:property value="message"/></h3>
-           <a href='<s:url action="AdminAction"/>'>管理者TOPへ</a>
-        </div>
-    </div>
-    <div id="header">
-    </div>
+	<div id="header">
+	</div>
+	<div id="main">
+		<div id="top">
+			<p>itemListDeleteComplete</p>
+		</div>
+		<div>
+			<h3><s:property value="message"/></h3>
+			<a href='<s:url action="AdminAction"/>'>管理者TOPへ</a>
+		</div>
+	</div>
+	<div id="header">
+	</div>
 
 </body>
 </html>

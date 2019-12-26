@@ -9,28 +9,27 @@
 <title>Home画面</title>
 </head>
 <body>
-     <div id="header">
-     </div>
-     <div id="main">
-           <div id="top">
-                 <p>Home</p>
-           </div>
-           <div id="text-center">
-                  <s:form action="HomeAction">
-                      <s:submit value="商品購入"/>
-                  </s:form>
-                  <s:if test="#session.login_user_id != null">
-                      <p>ログアウトする場合は
-                      <a href='<s:url action="LogoutAction"/>'>こちら</a></p>
-                  </s:if>
-
-                  <s:form action="AdminAction">
-                     <s:submit value="管理者用"/>
-                  </s:form>
-           </div>
-     </div>
-     <div id="footer">
-     </div>
+	<div id="header">
+	</div>
+	<div id="main">
+		<div id="top">
+			<p>Home</p>
+		</div>
+		<div id="text-center">
+			<s:form action="HomeAction">
+				<s:submit value="商品購入"/>
+			</s:form>
+			<s:if test="#session.login_user_id != null">
+				<p>ログアウトする場合は
+				<a href='<s:url action="LogoutAction"/>'>こちら</a></p>
+			</s:if>
+			<s:form action="AdminAction">
+				<s:submit value="管理者用"/>
+			</s:form>
+		</div>
+	</div>
+	<div id="footer">
+	</div>
 
 </body>
 </html>
